@@ -1,0 +1,9 @@
+{
+    "name": "functiongraph-layer-sample",
+    "version": "1.0.0",
+    "description": "Sample FunctionGraph layer for Node.js",
+    "dependencies": {
+      "i18next": "latest",
+      "i18next-sprintf-postprocessor": "latest"
+    }
+  }
