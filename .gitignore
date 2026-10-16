@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.zip
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.example
+infra/.terraform/
+infra/.terraform.lock.hcl
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.codeartsdoer/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local environment
+.env
+.env.local
+
+# Terraform plan outputs
+*.plan

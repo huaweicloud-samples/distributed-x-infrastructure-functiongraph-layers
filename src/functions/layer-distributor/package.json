@@ -1,0 +1,14 @@
+{
+  "name": "layer-distributor",
+  "version": "1.0.0",
+  "description": "Huawei Cloud FunctionGraph function to distribute layers across multiple regions",
+  "main": "index.js",
+  "dependencies": {
+    "esdk-obs-nodejs": "^3.26.0",
+    "@huaweicloud/huaweicloud-sdk-functiongraph": "^3.1.0",
+    "@huaweicloud/huaweicloud-sdk-core": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
